@@ -1,0 +1,113 @@
+.container{
+    display:grid;
+    height: 100vh;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 0.5fr 2fr;
+    margin:auto;
+    text-align: center;
+    grid-gap:0.2rem;
+    font-family: 'Barlow', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
+    grid-template-areas:
+    "box1"
+    "box2"
+    "maincontainer"
+}   
+
+.container div{
+    background-color: lightgrey;
+    align-items: center;
+    justify-content: center;
+    border: radius 5px;
+    color: gray;
+}
+
+:root{
+    --main-radius:5px;
+    --main-padding:5px;
+}
+
+/* .container{
+    display:flex;
+} */
+
+/* .box1{
+    display:flex;
+    flex-direction: row;
+} */
+
+/* .box2{
+    display:flex;
+    flex-direction: row;
+} */
+.box1{
+    grid-area: box1;
+    border-radius: var(--main-radius)
+
+}
+/* .container div{
+    background-color: lightgrey;
+    align-items: center;
+    justify-content: center;
+    border: radius 5px;
+
+} */
+
+.tim{
+    /* display: flex; */
+    margin-left: auto;
+    margin-right:auto;
+    border-radius: 50%;
+    width:40%;
+}
+
+/* .box1{
+    align-items: center;
+    justify-content: center;
+    /* margin-left: 240px;
+    margin-right:100px; */ */
+
+#red{
+    color: red;
+    font-weight:100px;
+    /* margin-left: 200px;
+    margin-right: 100px; */
+
+}
+
+.button1{
+    background-color: orange;
+    color:white;
+    border-radius: 5px;
+    
+}
+.para{
+    text-align: justify;
+}
+.box2 {
+    grid-area: box2;
+    /* background-color: lightgray;
+    align-items: center;
+    justify-content: center;
+    margin: auto; */
+
+}
+.movies{
+    float: left;
+
+}
+.container{
+    grid-area:container;
+}
+
+li{
+    display: inline;
+
+}
+.hulot{
+position:left;
+}
+.Alien{
+float:left;
+}
+    
